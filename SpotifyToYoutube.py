@@ -6,6 +6,9 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.action_chains import ActionChains
 import time
 
+# Deixe o programa rodar e controlar as abas do navegador. Não minimize nem clique em nelas se for possível, pode atrapalhar.
+# Let the program run and control your navigator tabs. Don't minimize the navigator and neither click on something, this can confuse the bot
+
 linkPlaylistSpotify = "Link of Spotify playlist that you want to clone" # Ex: https://open.spotify.com/playlist/4nE6NVcObcxBs2hQjD0WL3?si=swWhfQAORwyyVxIyFgyR4g
 nomePlaylist = "Name that you want for your youtube playlist" # Ex: Sad Songs
 emailYoutube = "Your email of youtube" # Ex: YOUREMAIL@GMAIL.COM
